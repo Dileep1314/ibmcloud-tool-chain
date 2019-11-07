@@ -6,7 +6,7 @@ This Hello World application uses Node.js and includes a DevOps toolchain that i
 
 ### To get started, click **Create toolchain**.
 
-[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/custom_toolchain.png)](https://cloud.ibm.com/devops/setup/deploy/?repository=https://github.com/Dileep1314/ibmcloud-tool-chain.git)
+[![Deploy To IBM Cloud](https://cloud.ibm.com/devops/graphics/custom_toolchain.png)](https://cloud.ibm.com/devops/setup/deploy/?repository=https%3A//github.com/Dileep1314/ibmcloud-tool-chain)
 
 ---
 ### Learn more
