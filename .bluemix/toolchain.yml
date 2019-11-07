@@ -16,7 +16,7 @@ template:
   required:
     - sample-build
     - sample-repo
-    -analytics
+    - analytics
   info:
     #original static git url and branch string definitions
     #git url: >-
