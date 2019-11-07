@@ -16,7 +16,7 @@ template:
   required:
     - sample-build
     - sample-repo
-    -analytics
+    - analytics
   info:
     #original static git url and branch string definitions
     #git url: >-
@@ -73,8 +73,8 @@ services:
         execute: true
   messaging:
      service_id: slack
-      $ref: slack.yml
-analytics:
+     $ref: slack.yml
+     analytics:
   service_id: customtool
   parameters:
     name: Analytics
