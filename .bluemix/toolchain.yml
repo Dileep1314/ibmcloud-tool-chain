@@ -20,9 +20,9 @@ template:
   info:
     #original static git url and branch string definitions
     #git url: >-
-    #  [https://github.com/Dileep1314/test-tool-chain](https://github.com/Dileep1314/test-tool-chain)
+    #  [https://github.com/Dileep1314/ibmcloud-tool-chain](https://github.com/Dileep1314/ibmcloud-tool-chain)
     #git branch: >-
-    #  [master](https://github.com/Dileep1314/test-tool-chain/tree/master)
+    #  [master](https://github.com/Dileep1314/ibmcloud-tool-chain)
     
     # compute the git url and branch values dynamically so that they remain correct when repo is forked etc. 
     # note: `repository` url param must always be provided while the `branch` url param is optional
@@ -46,10 +46,10 @@ services:
       repo_name: ''
       repo_url: >
         $env.type === 'link' ? 
-          $env.app_repo : 'https://github.com/Dileep1314/test-tool-chain'
+          $env.app_repo : 'https://github.com/Dileep1314/ibmcloud-tool-chain'
       source_repo_url: >
         $env.type === 'fork' || $env.type === 'clone' ? 
-          $env.app_repo : 'https://github.com/Dileep1314/test-tool-chain'
+          $env.app_repo : 'https://github.com/Dileep1314/ibmcloud-tool-chain'
       type: $env.type || 'clone'
       has_issues: true
       enable_traceability: true
