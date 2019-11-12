@@ -1,4 +1,3 @@
 parameters:
   api_token: ""
-  channel_name: "testing11"
-  Slack_team_name: "dileep"
+  channel_name: ""
