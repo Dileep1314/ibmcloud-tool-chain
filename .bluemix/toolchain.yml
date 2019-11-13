@@ -81,9 +81,9 @@ services:
      description: Usage Details
      type: Google Analytics
      lifecyclePhase: LEARN
-    imageUrl: ''
-    documentationUrl: 'https://support.google.com/analytics'
-    dashboard_url: 'https://analytics.google.com/
+     imageUrl: ''
+     documentationUrl: 'https://support.google.com/analytics'
+     dashboard_url: 'https://analytics.google.com/
   webide:
     service_id: orion
 form:
